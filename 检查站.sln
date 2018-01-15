@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "web", "http://localhost:62792", "{0B01309D-886C-4687-B225-6925F0BE16C0}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{1c03baf5-e33b-4dd6-9a01-fa7c35af80c9}|Yank.WeiXin.Robot.dll;{3db7a75d-c150-4b49-9ad7-268f45a43458}|Common.dll;{0110e1d9-a675-42f9-83e2-0b832220210a}|WechatService.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_62792"
+		Debug.AspNetCompiler.PhysicalPath = "web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62792\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_62792"
+		Release.AspNetCompiler.PhysicalPath = "web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_62792\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "web\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "微信", "Yank.WeiXin.Robot\微信.csproj", "{1C03BAF5-E33B-4DD6-9A01-FA7C35AF80C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WechatService", "WechatService\WechatService.csproj", "{0110E1D9-A675-42F9-83E2-0B832220210A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{3DB7A75D-C150-4B49-9AD7-268F45A43458}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B01309D-886C-4687-B225-6925F0BE16C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B01309D-886C-4687-B225-6925F0BE16C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B01309D-886C-4687-B225-6925F0BE16C0}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B01309D-886C-4687-B225-6925F0BE16C0}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{1C03BAF5-E33B-4DD6-9A01-FA7C35AF80C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C03BAF5-E33B-4DD6-9A01-FA7C35AF80C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C03BAF5-E33B-4DD6-9A01-FA7C35AF80C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C03BAF5-E33B-4DD6-9A01-FA7C35AF80C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0110E1D9-A675-42F9-83E2-0B832220210A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0110E1D9-A675-42F9-83E2-0B832220210A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0110E1D9-A675-42F9-83E2-0B832220210A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0110E1D9-A675-42F9-83E2-0B832220210A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB7A75D-C150-4B49-9AD7-268F45A43458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB7A75D-C150-4B49-9AD7-268F45A43458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB7A75D-C150-4B49-9AD7-268F45A43458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB7A75D-C150-4B49-9AD7-268F45A43458}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
